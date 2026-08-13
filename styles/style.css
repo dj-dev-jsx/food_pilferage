@@ -1,0 +1,29 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.sidebar {
+    background-color: #28a745;
+}
+
+.sidebar a {
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.sidebar a:hover {
+    background-color: rgba(255, 255, 255, 0.2); 
+    color: #fff; 
+}
+
+.sidebar .nav-link {
+    padding: 10px 15px; 
+    border-radius: 5px; 
+}
+
+.sidebar .nav-link i {
+    font-size: 1.25rem;
+}
+
+.sidebar hr {
+    border-top: 1px solid #fff; 
+}

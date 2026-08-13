@@ -1,0 +1,11 @@
+CREATE DATABASE problem_tracker;
+USE problem_tracker;
+
+CREATE TABLE problems (
+    id INT PRIMARY KEY AUTO_INCREMENT,
+    title VARCHAR(255) NOT NULL,
+    description TEXT,
+    approach TEXT,
+    solution TEXT,
+    date_added TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
